@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    border: border-box;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-bar{
+    height: 60px;
+    background-color:#0F1111;
+    color: white;
+    position: fixed;
+    width: 100vw;
+}
+#logo{
+    width: 129px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.nav-map{
+    color: white;
+    position: fixed;
+    top: 10px;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+.map1{
+    color: #CCCCCC;
+    position: fixed;
+    top: 13px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.map2{
+    color: #FFFFFF;
+    position: fixed;
+    top: 30px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.nav-search{
+    position: fixed;
+    top: 20px;
+    margin-left:300px;
+    height: 30px;
+    width: 78px;
+    display: inline-block;
+}
+#search{
+    width: 440px;
+    height: 30px;
+    position: fixed;
+    top: 15px;
+    margin-left:5px ;
+    
+}
+#icon1{
+    position: fixed;
+    top: 15px;
+    margin-left: 443px;
+    width: 40px;
+    height: 30px;
+}
+#flag{
+    width: 21px;
+    height: 16px;
+    position: fixed;
+    top:25px ;
+    margin-left: 840px;
+}
+#language{
+    color: #FFFFFF;
+    position: fixed;
+    top: 25px;
+    margin-left: 865px;
+    font-size: 14px;
+}
+.hello{
+    color: #FFFFFF;
+    width: 113px;
+    height: 15px;
+    font-size: 14px;
+    position: fixed;
+    top: 15px;
+    margin-left: 900px;
+}
+.return{
+    color: #FFFFFF;
+    width: 59px;
+    height: 143px;
+    font-size: 14px;
+    position: fixed;
+    top: 15px;
+    margin-left: 1050px;
+}
+.cart{
+    width: 10px;
+    height: 1px;
+    position: fixed;
+    top: -5px;
+    margin-left: 1050px;
+}
+.nav-shop{
+    width: 100vwpx;
+    height: 28px;
+    background-color: #262f40;
+    position: relative;
+    top: 60px;
+    
+
+}
+.bars{
+    color:#FFFFFF;
+    
+    margin-left: 15px;
+    /* position: fixed; */
+    top: 63px;  
+
+}
+li{
+    color: #FFFFFF;
+    display: inline-block;
+   margin-right: 10px;
+   font-size: 14px;
+}
+.shop-elements{
+    /* position: fixed; */
+    top: 40px;
+}
+.background{
+    width: 100px;
+    height: 100px;
+}
+
