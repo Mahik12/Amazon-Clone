@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    border: border-box;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-bar{
+    height: 60px;
+    background-color:#0F1111;
+    color: white;
+    position: fixed;
+    width: 1250px;
+    z-index: 30;
+}
+#logo{
+    width: 129px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.logo{
+    width:129px;
+    height: 55px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover
+{
+    border: 2px solid white;
+}
+
+.mappy{
+    width: 170px;
+    height: 50px;
+    position:fixed;
+    top: 10px;
+    left: 130px;
+}
+
+.map1{
+    color: #CCCCCC;
+    position: fixed;
+    top: 13px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.map2{
+    color: #FFFFFF;
+    position: fixed;
+    top: 30px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.nav-search{
+    position: fixed;
+    top: 10px;
+    margin-left:300px;
+    height: 40px;
+    width: 50px;
+    display: inline-block;
+}
+#search{
+    width: 455px;
+    height: 40px;
+    position: fixed;
+    top: 10px;
+    margin-left:10px ;
+    left: 340px;
+
+    
+}
+#icon1{
+    position: fixed;
+    top: 10px;
+    margin-left: 443px;
+    width: 40px;
+    height: 40px;
+    left: 340px;
+}
+.con{
+    width: 55px;
+    height: 45px;
+    position: fixed;
+    top:10px;
+    left: 830px;
+    z-index: 3;
+}
+#flag{
+    width: 21px;
+    height: 16px;
+    position: fixed;
+    top:25px ;
+    z-index: 4;
+}
+#language{
+    color: #FFFFFF;
+    position: fixed;
+    top: 25px;
+    margin-left: 30px;
+    font-size: 14px;
+    z-index: 5;
+}
+.hell0{
+    width: 115px;
+    height: 45px;
+    position: fixed;
+    top: 10px;
+    left: 900px;
+   
+}
+.hello{
+    color: #FFFFFF;
+    width: 113px;
+    height: 15px;
+    font-size: 14px;
+    position: fixed;
+    top: 15px;
+  
+}
+.ret{
+    width: 60px;
+    height: 45px;
+    position: fixed;
+    top: 10px;
+    left: 1040px;
+
+}
+.return{
+    color: #FFFFFF;
+    width: 59px;
+    height: 143px;
+    font-size: 14px;
+    position: fixed;
+    top: 15px;
+}
+.cArt{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    top: 10px;
+    left: 1110px;
+    z-index: 10;
+    
+}
+.cart{
+  position: fixed;
+    top: 12px;
+    left: 1117px;
+    z-index: 5;
+}
+.nav-shop{
+    width: 1500px;
+    height: 39px;
+    background-color: #262f40;
+    position: relative;
+    top: 60px;
+    align-items: center;
+
+}
+.bars{
+    color:#FFFFFF;
+    
+    margin-left: 15px;
+    position: relative;
+    top: 7px;  
+    /* display: inline;
+    margin-right: 2px; */
+
+
+}
+.shoppy{
+    position: relative;
+    top: 0px;
+    align-items: center;
+}
+li{
+    color: #FFFFFF;
+    display: inline-block;
+   margin-right: 5px;
+   font-size: 14px;
+   position: relative;
+   top: -10px;
+}
+.background{
+    width: 1500px;
+    height: 900px;
+    position: relative;
+    top: 60px;
+}
+.All{
+    width: 30px;
+    height: 29px;
+ 
+}
+#drop{
+    width: 55px;
+    height: 50px;
+    background-color: #e6e6e6;
+    position: fixed;
+    left:297px;
+    top: 10px;  
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.Mx_Player{
+    height: 29px;
+}
+.Sell{
+    height: 29px;
+}
+.Gift_Cards{
+    height: 29px;
+}
+.AmazonBasics{
+    height: 29px;
+}
+.Buy_Again{
+    height: 29px;
+}
+.Browsing_History{
+    height: 29px;
+}
+.Mahik_Amazon{
+    height: 29px;
+
+}
+.Amazon_Pay{
+    height: 29px;
+}
+.ad{
+    z-index: 100;
+    position: relative;
+    top:-51px;
+    left: 830px;
+    width: 400px;
+    height: 38px;
+}
+.Pd1{
+    width: 306px;
+    height: 420px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -500px;
+    left: 20px;
+    font-size: 14px;
+    align-content: center top;
+    z-index: 19;
+    
+}
+.gray{
+    background-color: #e6e6e6;
+    width: 1500px;
+    height: 180px;
+    position: relative;
+    top: -1080px;
+}
+.product_1{
+    width: 280px;
+    height: 300px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.offers{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 14px;
+    color: blue;
+}
+.Pd2{
+    width: 306px;
+    height: 420px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -920px;
+    left: 350px;
+    
+    z-index: 14;
+    
+}
+.txt1{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: #0F1111;
+}
+.txt2{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    font-size: 14px;
+    color: #0F1111;
+}
+#p1{
+    width: 135px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#p2{
+    width: 135px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+#p3{
+    width: 135px;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: 10px;
+}
+#p4{
+    width: 135px;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: 15px;
+}
+.txta{
+    font-size: 12px;
+    color: #0F1111;
+    position: relative;
+    top: -85px;
+    left: 10px;
+}
+.txtb{
+    font-size: 12px;
+    color: #0F1111;
+    position: relative;
+    top: -100px;
+    left: 155px;
+}
+.txtc{
+    font-size: 12px;
+    color: #0F1111;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+.txtd{
+    font-size: 12px;
+    color: #0F1111;
+    position: relative;
+    top: 25px;
+    left: 155px;
+}
